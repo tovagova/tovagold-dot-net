@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url("../fonts/Oxygen-Regular.ttf");
+}
+
+.topbar {
+    background-color: black;
+    height: 120px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.topbar h1 {
+    color: white;
+    font-size: 45px;
+    font-family: Pacifico;
+}
+
+.navbar {
+    justify-content: space-evenly;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.navbar a {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    font-family: Rubik;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.hero {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#welcome p {
+    font-size: 40px;
+    font-family: Oxygen;
+}
+
+.hero img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skillCard {
+    padding: 40px;
+}
+
+.skillCard img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.skillCard h2 {
+    font-family: Oxygen;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.skillCard li {
+    font-family: Oxygen;
+    font-size: 20px;
+}
+
+.contact p {
+    font-family: Oxygen;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact a:link {
+    color: red;
+}
