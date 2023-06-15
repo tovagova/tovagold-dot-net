@@ -51,6 +51,7 @@
     font-size: 25px;
     padding: 20px;
     font-family: Rubik;
+    text-decoration: none;
 }
 
 .navbar li {
@@ -113,5 +114,40 @@
 }
 
 .contact a:link {
-    color: red;
+    color: rgb(231, 72, 98);
+}
+
+.hover-underline-anim {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.hover-underline-anim::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(231, 72, 98);
+    transform-origin: 50%;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-anim:hover::after {
+    transform: scaleX(.9);
+    transform-origin: 50%;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-family: Pacifico;
+    font-size: 40px;
+    padding: 20px;
 }
