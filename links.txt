@@ -1,0 +1,11 @@
+https://aws.amazon.com/s3/
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html
+https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-amazon-route-53.html
+https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/
+https://thenewstack.io/how-to-set-up-your-s3-bucket-with-https-in-an-hour/
+https://repost.aws/knowledge-center/cloudfront-https-requests-s3
+https://aws.amazon.com/route53/
+https://aws.amazon.com/getting-started/?sc_icontent=awssm-evergreen-getting_started&sc_iplace=2up&trk=ha_awssm-evergreen-getting_started&sc_ichannel=ha&sc_icampaign=evergreen-getting_started
+https://aws.amazon.com/cloudfront/pricing/
+https://portal.aws.amazon.com/billing/signup?pg=cloudfrontprice&cta=herobtn&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email
