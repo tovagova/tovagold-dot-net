@@ -142,6 +142,46 @@
     transform-origin: 50%;
 }
 
+.case-wrapper {
+    display: grid;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+    gap: 20px;
+}
+
+.case-card {
+    display: grid;
+    background-color: #aeecbb;
+    justify-items: center;
+    grid-template-areas:
+    "a b"
+    "a c"
+    "a d";
+    grid-template-rows: 15% 15% auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.case-card a {
+    grid-area: a;
+}
+
+.case-card h1 {
+    grid-area: b;
+    font-size: 30px;
+}
+
+.case-card h2 {
+    grid-area: c;
+    font-size: 18px;
+}
+
+.case-card p {
+    font-family: Oxygen;
+    grid-area: d;
+}
+
 .title {
     text-align: center;
 }
@@ -150,4 +190,141 @@
     font-family: Pacifico;
     font-size: 40px;
     padding: 20px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-title h1 {
+    font-family: Oxygen;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.project-title h2 {
+    font-family: Oxygen;
+    font-size: 20px;
+}
+
+.project-title img {
+    width: 500px;
+    height: 700px;
+    object-fit: none;
+    object-position: 40%;
+    padding-top: 10px;
+}
+
+.project-subtitle {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+.project-subtitle p {
+    font-family: Oxygen;
+    font-size: 20px;
+}
+
+.project-chapter-title {
+    text-align: center;
+    background: black;
+    width: 60%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.project-chapter-title h1 {
+    font-family: Rubik;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+.project-text p {
+    font-family: Oxygen;
+}
+
+.project-text {
+    width: 60%;
+    margin: auto;
+}
+
+.img-single {
+    display: block;
+    margin: auto;
+}
+
+.project-text li {
+    font-family: Oxygen;
+}
+
+.project-text ul {
+    margin-left: 5%;
+}
+
+.project-img-container-2 {
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    grid-template-columns: auto auto;
+    margin: auto;
+    gap: 10px;
+}
+
+.project-img-container-3 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 30px;
+    margin: auto;
+    text-align: center;
+    grid-column-gap: 25px;
+    grid-row-gap: 5px;
+    align-items: center;
+}
+
+.project-img-container-3 p {
+    font-family: Oxygen;
+}
+
+.img-subtitle {
+    text-align: center;
+    padding: 10px;
+    background-color: #3C9CAA;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.img-subtitle p {
+    font-family: Oxygen;
+    color: white;
+}
+
+.problem-statement {
+    text-align: center;
+    background-color: #3C9CAA;
+    width: 40%;
+    margin: auto;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.problem-statement p {
+    font-family: Oxygen;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.stinger h1 {
+    font-family: Rubik;
+    font-size: 30px;
+}
+
+.stinger {
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
