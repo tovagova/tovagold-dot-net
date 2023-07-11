@@ -152,7 +152,7 @@
 
 .case-card {
     display: grid;
-    background-color: #aeecbb;
+    background-color: #d3f1d9;
     justify-items: center;
     grid-template-areas:
     "a b"
@@ -161,6 +161,7 @@
     grid-template-rows: 15% 15% auto;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .case-card a {
@@ -180,6 +181,10 @@
 .case-card p {
     font-family: Oxygen;
     grid-area: d;
+}
+
+.case-card img {
+    border-radius: 10px;
 }
 
 .title {
@@ -270,6 +275,7 @@
     grid-template-columns: auto auto;
     margin: auto;
     gap: 10px;
+    align-items: center;
 }
 
 .project-img-container-3 {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Frij</title>
+    <title>Popcorn</title>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
 
@@ -15,14 +15,209 @@
                 <ul>
                     <li><p class="hover-underline-anim"><a href="../../index.html">HOME</a></p></li>
                     <li><p class="hover-underline-anim"><a href="../case-studies/case-studies.html">CASE STUDIES</a></p></li>
-
                 </ul>
             </nav>
         </div>
     </section>
 
     <section class="project-title">
-        <h1>COMING SOON</h1>
+        <h1>POPCORN</h1>
+        <h2><i>POPCORN was conceived and designed as part of the Columbia Engineering UX/UI Design Boot Camp course by myself and three other junior designers.</i></h2>
+    </section>
+
+    <br><img src="popcorn-images/mockup.jpg" class="img-single" width=800px;>
+
+    <section class="project-subtitle">
+        <p><b>Design Challenge:</b> Design an app and deliver high fidelity wireframe designs</p><br>
+        <p><b>Timeline:</b> 4 weeks</p><br>
+        <p><b>Deliverables:</b> High fidelity design mockup & design process documentation</p><br>
+        <p><b>Tools Used:</b> Figma, Adobe Color, Photoshop, Google Docs, Google Forms, Trello</p><br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>USER RESEARCH</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>With this open-ended project, my colleagues and I started with the idea of building an app that would <b>connect to the user's smart TV.</b> Having used many different streaming apps and smart TV sets between the four of us, we all felt that there is lots of room for improvement and innovation in a field of software in which most apps have similar, limited functionality, despite being used by millions of people every day. So we embarked on our research to find out how people use their smart TVs now, and what they wanted to be able to do with them.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="popcorn-images/survey1.png">
+            <img src="popcorn-images/survey2.png">
+        </section>
+
+        <section class="project-text">
+            <p>In our user survey, we found that people mostly used their TVs for <b>streaming apps,</b> and particularly for <b>re-watching favorite shows</b> they'd already seen before. We also conducted several <b>one-on-one interviews</b> to get a deeper sense of someone's habits and frustrations surrounding their smart TV. Some of our findings include:</p>
+            <ul>
+                <li>People wanted more social media features with their streaming services</li>
+                <li>Most people seek out online discourse about a show after they watch it</li>
+                <li>Most people watch TV alone and about half with their significant other</li>
+                <li>People have issues with how multiple apps are needed to navigate their streaming services</li>
+            </ul>
+        </section>
+
+        <br>
+        <img src="popcorn-images/persona.png" class="img-single" width=1400px>
+        <br>
+
+        <section class="project-text">
+            <p>With the insights from our research, we created a <b>proto-persona</b> to help us define who we were building our app for and what it should do. We also conducted a <b>competitor analysis,</b> looking at some of the biggest streaming platforms and adjacent services, including Amazon Watch Party, Letterboxd, and the popular Japanese video community Niconico.</p>
+        </section>
+
+        <br>
+        <img src="popcorn-images/comp analysis.png" class="img-single">
+        <br>
+
+        <section class="project-text">
+            <p>We also organized our findings from the survey and interviews and organized them into an <b>affinity map</b> with varied categories. The most important category for us was 'Frustrations with Streaming vs Cable.'</p>
+        </section>
+
+        <br>
+        <img src="popcorn-images/affinity diagram.png" class="img-single" width=1400px>
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>IDEATION</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>From our research, we found that people had a lot of the same issues with multiple streaming platforms, and a lot of them had the same desires. We synthesized our findings into a concise <b>problem statement.</b></p>
+            <br>
+        </section>
+
+        <section class="problem-statement">
+            <p>PROBLEM STATEMENT</p>
+            <br>
+            <p>Users are suffering from decision fatigue because streaming platforms have so much content and too little structure. No current app allows users to search multiple services at once or has robust dedicated social features.</p>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>Next we brainstormed possible features to build out based on our user research and our own experiences. Some of the features we came up with were:</p>
+            <ul>
+                <li>A search function that searches all streaming platforms you have accounts on</li>
+                <li>A 'recommendation' feature to send movies/shows to people on your friends list</li>
+                <li>Posting timestamped comments that would show up on a friend's screen at that specific time during a movie/show</li>
+                <li>Public chatrooms with other users currently watching the same thing as you</li>
+                <li>AI generative technology that changes a show as you watch it</li>
+            </ul>
+            <br>
+            <p>We also created a <b>user journey</b> to envision the typical steps a user might take.</p>
+        </section>
+
+        <img src="popcorn-images/user journey.png" class="img-single" width=1400px>
+
+        <section class="project-text">
+            <br><p>In this example, a young white-collar professional signs up for our app, uses it to find a new show to watch, and then posts timestamped comments on the episode for her friends. Next, we organized our ideas into an <b>'I Like, I Wish, What If'</b> framework and then into a <b>feature prioritization matrix</b> to emphasize our most important features for development.</p>
+            <br>
+        </section>
+
+        <img src="popcorn-images/likewishwhatif.png" class="img-single" width=1400px>
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>PROTOTYPING</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>We next had to hash out our <b>user flow</b> for the tentative feature list we had decided on. For the first iteration, we wanted the user to be able to search different streaming platforms, play media, navigate a friends list, and post comments to a film or show.</p>
+        </section>
+
+        <img src="popcorn-images/user flow.png" class="img-single" width=1400px>
+
+        <section class="project-text">
+            <p>Our next step was to create <b>lo-fi wireframes</b> for the first design iteration. Because the app lives on a phone and broadcasts to a smart TV, we needed wireframes for both devices.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="popcorn-images/lofi2.png" width=300px>
+            <img src="popcorn-images/lofi1.png" width=1000px>
+        </section>
+
+        <section class="project-text">
+            <p>We also began working on the branding and style for the app so we could build a cohesive aesthetic identity. We put together a <b>mood board and color scheme</b> to evoke the glamour of the Golden Age movie theater, with velvet ropes and bright lights. We also took inspiration from the drive-in theaters and classic Hollywood films and posters. At this point we settled on the name <b>Popcorn</b> for the app, thinking about the communal experience of sharing snacks and being part of an audience.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-3">
+            <img src="popcorn-images/moodboard.png">
+            <img src="popcorn-images/lofi3.png" width=250px>
+        </section>
+
+        <section class="project-text">
+            <p>Our <b>style tile</b> details the color scheme, typography, logo, and other aspects of the interface.</p>
+        </section>
+
+        <img src="popcorn-images/Style Tile.png" class="img-single" width=1200px>
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>TESTING & ITERATING</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>Our prototype had a working flow for finding media and sending a message over chat, so we conducted <b>user tests</b> on those functions. We found that our users:</p>
+            <ul>
+                <li>Needed more specific language on certain buttons</li>
+                <li>Were confused by the 'hide me' button on the TV interface</li>
+                <li>Wanted to be sure they could type on their phone keyboard</li>
+                <li>Were excited by the concept and generally found our UI legible</li>
+            </ul>
+            <p>With this feedback, and our style guide complete, we iterated on our design and built another usable prototype.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="popcorn-images/midfi1.png">
+            <img src="popcorn-images/midfi2.png">
+        </section>
+
+        <section class="project-text">
+            <br><p>These mid-fi iterations led to our final prototype, demonstrations of which are shown below.</p>
+            <br>
+        </section>
+
+        <img src="popcorn-images/demo phone.gif" width=350px class="img-single">
+        <br>
+        <img src="popcorn-images/demo tv.gif" width=1200px class="img-single">
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>CONCLUSION</h1>
+        </section>
+
+        <section class="project-text">
+            <br><p>Our team built a good-looking, robust design in a month, but there's still plenty more work that could be done on this concept:</p>
+            <ul>
+                <li>Further accessibility testing</li>
+                <li>Researching legalities of re-hosting or accessing paid streaming services</li>
+                <li>Building out features for live broadcast experience</li>
+                <li>More integration between phone & TV interfaces</li>
+                <li>More social networking features like sharable playlists</li>
+            </ul>
+            <br>
+        </section>
+
+        <section class="stinger">
+            <h1>Thanks for reading! If you have any feedback, please get in touch at contact@tovagold.net!</h1>
+            <br>
+        </section>
     </section>
 </body>
 </html>

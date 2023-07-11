@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Goodreads Redesign</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+
+<body>
+    <section class="topbar">
+        <div class="logo">
+            <h1>Tova Gold Design</h1>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><p class="hover-underline-anim"><a href="../../index.html">HOME</a></p></li>
+                    <li><p class="hover-underline-anim"><a href="../case-studies/case-studies.html">CASE STUDIES</a></p></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="project-title">
+        <h1>GOODREADS REDESIGN</h1>
+        <h2><i>This redesign of Goodreads was a group project completed as part of the Columbia Engineering UX/UI Design Boot Camp in 2023.</i></h2>
+    </section>
+
+    <br>
+    <img src="goodreads-images/goodreads mockup.jpg" class="img-single" width=600px>
+
+    <section class="project-subtitle">
+        <p><b>Design Challenge:</b> Redesign a website</p>
+        <br>
+        <p><b>Timeline:</b> 3 weeks</p>
+        <br>
+        <p><b>Deliverables:</b> High fidelity design mockup & design process documentation</p>
+        <br>
+        <p><b>Tools Used:</b> Figma, Adobe Color, Photoshop, Google Docs, Google Forms, Trello</p>
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>RESEARCH</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>For this project, three colleagues and I were tasked with choosing an existing website and conducting a <b>redesign of the user interface.</b> As a quartet of literature nerds, we decided to focus on <b>Goodreads.com</b>, a popular site where users can rate and review books. The site was launched in 2007 and acquired by Amazon in 2013, and today has some 90 million members.
+            <br>
+            <br>
+            Our first move was to create a <b>proto-persona</b> to help us organize our users' demographics, goals, and pain points. It also aided us in developing interview and survey questions.</p>
+        </section>
+
+        <img src="goodreads-images/proto persona.png" class="img-single">
+        <br>
+
+        <section class="project-text">
+            <p>Our prototypical user is a young professional who wants to read more but doesn't have many people in his life with whom to recommend and discuss books. With this persona in mind we wrote and distributed a <b>survey</b> that asked about peoples' habits around reading.</p>
+        </section>
+
+        <img src="goodreads-images/survey2.png" class="img-single" width=700px>
+        <br>
+        <section class="project-img-container-2">
+            <img src="goodreads-images/survey1.png" width=700px>
+            <img src="goodreads-images/survey3.png" width=700px>
+        </section>
+
+        <section class="project-text">
+            <p>We also conducted five <b>one-on-one interviews</b> to get a more in-depth picture of someone's habits and their personal experience using Goodreads as it currently exists.</p>
+            <br>
+        </section>
+
+        <img src="goodreads-images/interviews.png" class="img-single">
+
+        <section class="project-text">
+            <p>Some of our research findings include:</p>
+            <ul>
+                <li>About half of people prefer reading physical books, with 20% preferring e-books and 15% preferring audiobooks</li>
+                <li>Almost everyone said they wished they were reading more</li>
+                <li>People were not aware of most community features on Goodreads due to the user interface</li>
+                <li>Most people chose books to read based on recommendations from friends and reviews on the internet</li>
+            </ul>
+            <p>We also conducted a <b>heuristic evaluation</b> of the existing Goodreads site</p>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="goodreads-images/heuristic1.png" width=500px>
+            <img src="goodreads-images/heuristic2.png" width=500px>
+        </section>
+
+        <section class="project-text">
+            <p>From this we found:</p>
+            <ul>
+                <li>The main navigation bars lack links to social features</li>
+                <li>The 'reviews' section of a book page is many pages long and blocks the user from finding social features</li>
+                <li>Every item on the sign-in page has a whole paragraph of explanation, overwhelming new users</li>
+                <li>Book pages have few items relating to the book in question, are too focused on linking to other works or outside store pages</li>
+            </ul>
+            <br>
+        </section>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>DEFINITION & IDEATION</h1>
+        </section>
+        <br>
+
+        <section class="problem-statement">
+            <p>PROBLEM STATEMENT</p>
+            <br>
+            <p>Goodreads' mission is "help people find and share books they love." Users want to use the site to share discussion and recommendations with like-minded readers, but the site is currently difficult to navigate and the overall design hides helpful features and fails to keep users engaged.</p>
+        </section>
+
+        <section class="project-text">
+            <br><p>From our user research and personal experience using Goodreads, we knew that a lot of features on the site were either missing or so difficult to navigate to that users had no idea they even existed. Next, we plotted out a <b>user journey map</b> to help us solidify the type of user experience we wanted to design for. This map is for a young woman in her 20s who wants to read more, makes an account on Goodreads, and finds a community of people to share her reading journey with, leading to long-term engagement on the site.</p>
+            <br>
+        </section>
+
+        <img src="goodreads-images/journey map.png" class="img-single">
+        <br>
+
+        <section class="project-text">
+            <p>With a solid idea of what we wanted to improve about the existing site, and how we wanted users to use our new interface, we brainstormed features and organized our ideas with a <b>feature prioritization matrix</b> to decide what to build out for our prototype.</p>
+            <br>
+        </section>
+
+        <img src="goodreads-images/prioritization matrix.png" class="img-single">
+        <br>
+
+        <section class="project-text">
+            <p>Next, we made a <b>user flow chart</b> to map out the features for our prototype. We thought it would be important for users to be able to sign in, search for books, see a book page, and navigate a discussion forum page.</p>
+            <br>
+        </section>
+
+        <img src="goodreads-images/user flow.png" class="img-single" width=1200px>
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>WIREFRAMING & TESTING & STYLING</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>Our first prototype consisted of a half-dozen of the most important pages that our user flow covered, including the home page, search results, book page, and discussion page. We wanted the community features to be more prominent, so we added links to discussion posts closer to the tops of pages; the home screen will take the user straight to the latest discussion they posted in, and the home page for a specific book has user reviews right next to the latest active discussion topics for that book.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="goodreads-images/midfi1.jpg" width=600px>
+            <img src="goodreads-images/midfi2.jpg" width=600px>
+        </section>
+
+        <img src="goodreads-images/midfi3.png" class="img-single" width=1000px>
+
+        <section class="project-text">
+            <p>Our first prototype with our navigable wireframe went through three <b>usability tests.</b> We asked our testers to sign in and navigate to certain pages. We found:</p>
+            <ul>
+                <li>Users were interested in the community features but were <b>not sure why they would want to log in</b></li>
+                <li>Users were overwhelmed by the <b>information density</b> of the pages</li>
+                <li>Users liked the 'recommend to a friend' button</li>
+                <li>Users had <b>concerns about getting spoiled</b> by looking up a book they had not finished</li>
+                <li>Users were more interested in features related to <b>reading and discussing books</b> over features related to <b>purchasing books</b></li>
+            </ul>
+            <br>
+        </section>
+
+        <img src="goodreads-images/book line art.png" class="img-single">
+
+        <section class="project-text">
+            <br>
+            <p>We also investigated the accessibility and aesthetics of the current Goodreads site when deciding how to style it. The current site is reasonably accessible, and we decided not to change the typeface or color scheme, as our redesign was more focused on the layout and interface. We did, of course, create a <b>style tile</b> to guide our design for the higher fidelity prototype.</p>
+            <br>
+        </section>
+
+        <img src="goodreads-images/style tile.png" class="img-single" width=1400px>
+        <br>
+    </section>
+
+    <section class="project-chapter">
+        <section class="project-chapter-title">
+            <h1>ITERATIONS & CONCLUSIONS</h1>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>With our user feedback and style guide, we commenced work on the next iteration. For each page in our wireframe, we created a higher fidelity version in accordance with our style guide, as well as with our user feedback.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="goodreads-images/hifi1.png" width=600px>
+            <img src="goodreads-images/hifi2.png" width=600px>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>These pages show the home page and a book page for a signed-in user. We also created mockups for our bulletin-style discussion page.</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="goodreads-images/hifi3.png" width=600px>
+            <img src="goodreads-images/hifi4.png" width=600px>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>We also created a prototype for the mobile version of our redesigned site:</p>
+            <br>
+        </section>
+
+        <section class="project-img-container-2">
+            <img src="goodreads-images/mobile1.png">
+            <img src="goodreads-images/mobile2.png">
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>You can check out the desktop prototype for yourself <a href="https://www.figma.com/proto/xIy4N2DOl4Wf4EpWD6fPab/P2G2---Goodreads-Redesign-Prototype?page-id=66%3A2&node-id=66-889&viewport=680%2C456%2C0.14&scaling=scale-down&starting-point-node-id=66%3A889&show-proto-sidebar=1" target="_blank">here</a> and the mobile prototype <a href="https://www.figma.com/proto/xIy4N2DOl4Wf4EpWD6fPab/P2G2---Goodreads-Redesign-Prototype?page-id=90%3A94&node-id=92-1707&viewport=3378%2C313%2C0.85&scaling=scale-down&starting-point-node-id=90%3A1300" target="_blank">here.</a></p>
+        </section>
+
+        <section class="project-text">
+            <br>
+            <p>While we moved on from this project after a few weeks, there is still plenty more that could be done. Here are some of the steps we could have taken with more time and resources:</p>
+            <ul>
+                <li>Keep building out social features like friend groups and customizable fields</li>
+                <li>Approach redesign from mobile-first framework</li>
+                <li>Contact Goodreads' stakeholders to get feedback from them</li>
+                <li>Conduct A/B tests on UI features to enhance usability</li>
+                <li>Design fun features like year-end wrap-up for users, popularity timelines</li>
+            </ul>
+        </section>
+
+        <section class="stinger">
+            <br>
+            <h1>Thanks for reading! If you have any feedback, please get in touch at contact@tovagold.net!</h1>
+            <br>
+        </section>
+    </section>
+</body>
+</html>
