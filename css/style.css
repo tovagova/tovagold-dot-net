@@ -181,6 +181,8 @@
 .case-card p {
     font-family: Oxygen;
     grid-area: d;
+    padding-left: 15px;
+
 }
 
 .case-card img {
