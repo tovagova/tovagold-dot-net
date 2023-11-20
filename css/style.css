@@ -84,6 +84,12 @@
     gap: 50px;
 }
 
+@media (max-width: 800px) {
+    .skillsContainer {
+        display: grid;
+    }
+}
+
 .skillCard {
     padding: 40px;
 }
